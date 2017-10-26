@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\src\androidTest\res" />
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\generated\res\rs\test\debug" />
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\generated\res\generated\test\debug" />
+    </dataSet>
+
+</merger>

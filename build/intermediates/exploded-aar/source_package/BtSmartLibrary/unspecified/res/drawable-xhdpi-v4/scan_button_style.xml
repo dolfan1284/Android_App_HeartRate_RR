@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Image for button when pressed. -->
+  <item android:state_pressed="true" android:state_enabled="true" android:drawable="@drawable/button_scan_pressed" />
+  
+  <!-- Image for button when disabled. -->
+  <item android:state_enabled="false" android:drawable="@drawable/button_scan_disabled" />
+  
+  <!-- Image for button when not pressed. -->
+  <item android:state_enabled="true" android:drawable="@drawable/button_scan_normal" />
+  
+</selector><!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/BtSmartLibrary/res/drawable-xhdpi/scan_button_style.xml -->

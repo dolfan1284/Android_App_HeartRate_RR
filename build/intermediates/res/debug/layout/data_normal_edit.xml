@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:orientation="horizontal"
+    android:padding="@dimen/normal_padding"
+    android:background="@color/normal_background"
+    android:layout_marginTop="@dimen/margin_top" >
+
+
+    <EditText
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dip"
+        android:gravity="right"        
+        android:textColor="@color/normal_value"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/normal_text_size_value"
+        android:typeface="normal"
+        android:inputType="numberDecimal"/>
+        
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"        
+        android:textColor="@color/normal_title"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/normal_text_size_title"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_alignLeft="@+id/title"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="1dp"        
+        android:textColor="@color/normal_unit"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/normal_text_size_unit"
+        android:typeface="normal" />
+   
+</RelativeLayout><!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/DataView/res/layout/data_normal_edit.xml --><!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/build/intermediates/exploded-aar/source_package/DataView/unspecified/res/layout/data_normal_edit.xml -->

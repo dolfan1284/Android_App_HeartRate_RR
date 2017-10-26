@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="unspecified" >
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\DataView\unspecified\res" >
+            <file
+                name="data_big"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\DataView\unspecified\res\layout\data_big.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="data_big_no_title"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\DataView\unspecified\res\layout\data_big_no_title.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="data_normal"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\DataView\unspecified\res\layout\data_normal.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="data_normal_edit"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\DataView\unspecified\res\layout\data_normal_edit.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="data_small"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\DataView\unspecified\res\layout\data_small.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\DataView\unspecified\res\values\values.xml"
+                qualifiers="" >
+                <color name="big_background" >#80000000
+                </color>
+                <color name="big_unit" >#ffaaaaaa
+                </color>
+
+                <dimen name="big_no_title_text_size_value" >64sp
+                </dimen>
+                <dimen name="big_text_size_unit" >12sp
+                </dimen>
+                <dimen name="margin_top" >1dp
+                </dimen>
+                <dimen name="big_padding" >5dip
+                </dimen>
+                <dimen name="small_text_size_unit" >10sp
+                </dimen>
+
+                <color name="big_no_title_background" >#80000000
+                </color>
+                <color name="big_value" >@android:color/white
+                </color>
+
+                <dimen name="small_text_size_title" >16sp
+                </dimen>
+
+                <color name="normal_unit" >#ffaaaaaa
+                </color>
+
+                <dimen name="small_text_size_value" >16sp
+                </dimen>
+                <dimen name="big_text_size_value" >50sp
+                </dimen>
+
+                <color name="normal_title" >@android:color/white
+                </color>
+
+                <dimen name="normal_text_size_value" >18sp
+                </dimen>
+
+                <color name="normal_value" >#ffaaaaaa
+                </color>
+
+                <dimen name="normal_text_size_title" >18sp
+                </dimen>
+
+                <string name="app_name" >Temperature
+                </string>
+
+                <color name="big_title" >@android:color/white
+                </color>
+
+                <dimen name="normal_text_size_unit" >12sp
+                </dimen>
+
+                <color name="big_no_title_unit" >#ffaaaaaa
+                </color>
+                <color name="big_no_title_value" >@android:color/white
+                </color>
+
+                <dimen name="big_no_title_padding" >5dip
+                </dimen>
+                <dimen name="normal_padding" >4dip
+                </dimen>
+
+                <color name="normal_background" >#40000000
+                </color>
+
+                <string name="action_info" >Show device information
+                </string>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <dimen name="big_text_size_title" >24sp
+                </dimen>
+
+                <declare-styleable name="DataViewOptions" >
+                    <attr
+                        name="titleText"
+                        format="string" />
+                    <attr
+                        name="unitText"
+                        format="string" />
+                    <attr
+                        name="valueText"
+                        format="string" />
+                    <attr
+                        name="layout"
+                        format="reference" />
+                    <attr
+                        name="icon"
+                        format="reference" />
+                </declare-styleable>
+
+                <dimen name="small_padding" >4dip
+                </dimen>
+                <dimen name="big_no_title_text_size_unit" >12sp
+                </dimen>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\DataView\unspecified\res\values-sw720dp-land-v13\values.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\DataView\unspecified\res\values-v11\values.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\DataView\unspecified\res\values-v14\values.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res" >
+            <file
+                name="ic_launcher"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\drawable-hdpi-v4\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\drawable-mdpi-v4\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="button_scan_disabled"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\drawable-xhdpi-v4\button_scan_disabled.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="button_scan_normal"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\drawable-xhdpi-v4\button_scan_normal.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="button_scan_pressed"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\drawable-xhdpi-v4\button_scan_pressed.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\drawable-xhdpi-v4\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="scan_button_style"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\drawable-xhdpi-v4\scan_button_style.xml"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="nexus4_background"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\drawable-xxhdpi-v4\nexus4_background.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_scan_results"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\layout\activity_scan_results.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_row"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\layout\list_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\values\values.xml"
+                qualifiers="" >
+                <color name="device_name" >@android:color/white
+                </color>
+                <color name="status" >#ffaaaaaa
+                </color>
+
+                <dimen name="activity_vertical_margin" >0dp
+                </dimen>
+
+                <string name="connecting_status" >Connecting…
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+
+                <color name="background" >#40000000
+                </color>
+
+                <string name="app_name" >BtSmartLibrary
+                </string>
+                <string name="button_text_scan" >Scan
+                </string>
+                <string name="title_activity_main" >MainActivity
+                </string>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <dimen name="activity_horizontal_margin" >0dp
+                </dimen>
+
+                <color name="rssi" >#ffaaaaaa
+                </color>
+
+                <string name="connected_status" >Connected.
+                </string>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\values-v11\values.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\res\values-v14\values.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res" >
+            <file
+                name="ic_launcher"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="sohm_layer_app_image"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\drawable-hdpi\sohm_layer_app_image.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="sohm_layer_app_image1"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\drawable-hdpi\sohm_layer_app_image1.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="button_info"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\drawable-xhdpi\button_info.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="nexus4_background"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\drawable-xxhdpi\nexus4_background.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_device_info"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\layout\activity_device_info.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_heart_rate"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\layout\activity_heart_rate.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="heart_rate"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\menu\heart_rate.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >0dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >0dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\values\strings.xml"
+                qualifiers="" >
+                <string name="title_activity_device_info" >Device Information
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Sohm Layer
+                </string>
+                <string name="title_activity_heart_rate" >Sohm Layer
+                </string>
+                <string name="action_info" >Device Information
+                </string>
+            </file>
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\generated\res\rs\debug" />
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build-types\debug\res" />
+    </dataSet>
+
+</merger>

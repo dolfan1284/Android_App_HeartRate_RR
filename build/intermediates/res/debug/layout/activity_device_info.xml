@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"    
+    android:orientation="vertical"
+    android:background="@drawable/nexus4_background"
+    tools:context=".MainActivity" >
+
+
+    <com.csr.view.DataView
+        android:id="@+id/batteryData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        custom:valueText="--"
+        custom:titleText="Battery Level"               
+        custom:layout="@layout/data_small" />
+    
+    <com.csr.view.DataView
+        android:id="@+id/manufacturerData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        custom:valueText="--"
+        custom:titleText="Manufacturer"        
+        custom:layout="@layout/data_small" />
+        
+    <com.csr.view.DataView
+        android:id="@+id/hardwareRevData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:titleText="Hardware Revision"        
+        custom:valueText="--"        
+        custom:layout="@layout/data_small" />       
+    
+    <com.csr.view.DataView
+        android:id="@+id/fwRevData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:titleText="Firmware Revision"        
+        custom:valueText="--"        
+        custom:layout="@layout/data_small" />
+    
+    <com.csr.view.DataView
+        android:id="@+id/swRevData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:titleText="Software Revision"        
+        custom:valueText="--"        
+        custom:layout="@layout/data_small" />
+    
+    <com.csr.view.DataView
+        android:id="@+id/serialNoData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:titleText="Serial Number"        
+        custom:valueText="--"        
+        custom:layout="@layout/data_small" />
+    
+ </LinearLayout><!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/res/layout/activity_device_info.xml -->

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/build/intermediates/exploded-aar/source_package/BtSmartLibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <color name="background">#40000000</color>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/build/intermediates/exploded-aar/source_package/DataView/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <color name="big_background">#80000000</color>
+    <color name="big_no_title_background">#80000000</color>
+    <color name="big_no_title_unit">#ffaaaaaa</color>
+    <color name="big_no_title_value">@android:color/white</color>
+    <color name="big_title">@android:color/white</color>
+    <color name="big_unit">#ffaaaaaa</color>
+    <color name="big_value">@android:color/white</color>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/build/intermediates/exploded-aar/source_package/BtSmartLibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <color name="device_name">@android:color/white</color>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/build/intermediates/exploded-aar/source_package/DataView/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <color name="normal_background">#40000000</color>
+    <color name="normal_title">@android:color/white</color>
+    <color name="normal_unit">#ffaaaaaa</color>
+    <color name="normal_value">#ffaaaaaa</color>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/build/intermediates/exploded-aar/source_package/BtSmartLibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <color name="rssi">#ffaaaaaa</color>
+    <color name="status">#ffaaaaaa</color>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/build/intermediates/exploded-aar/source_package/DataView/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="DataViewOptions">
+        <attr name="titleText" format="string" />
+        <attr name="unitText" format="string" />
+        <attr name="valueText" format="string" />
+        <attr name="layout" format="reference" />
+        <attr name="icon" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/build/intermediates/exploded-aar/source_package/DataView/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="big_no_title_padding">5dip</dimen>
+    <dimen name="big_no_title_text_size_unit">12sp</dimen>
+    <dimen name="big_no_title_text_size_value">64sp</dimen>
+    <dimen name="big_padding">5dip</dimen>
+    <dimen name="big_text_size_title">24sp</dimen>
+    <dimen name="big_text_size_unit">12sp</dimen>
+    <dimen name="big_text_size_value">50sp</dimen>
+    <dimen name="margin_top">1dp</dimen>
+    <dimen name="normal_padding">4dip</dimen>
+    <dimen name="normal_text_size_title">18sp</dimen>
+    <dimen name="normal_text_size_unit">12sp</dimen>
+    <dimen name="normal_text_size_value">18sp</dimen>
+    <dimen name="small_padding">4dip</dimen>
+    <dimen name="small_text_size_title">16sp</dimen>
+    <dimen name="small_text_size_unit">10sp</dimen>
+    <dimen name="small_text_size_value">16sp</dimen>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_info">Device Information</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Sohm Layer</string>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/build/intermediates/exploded-aar/source_package/BtSmartLibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="button_text_scan">Scan</string>
+    <string name="connected_status">Connected.</string>
+    <string name="connecting_status">Connecting…</string>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="title_activity_device_info">Device Information</string>
+    <string name="title_activity_heart_rate">Sohm Layer</string>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/build/intermediates/exploded-aar/source_package/BtSmartLibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="title_activity_main">MainActivity</string>
+    <!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

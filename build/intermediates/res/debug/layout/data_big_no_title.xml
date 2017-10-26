@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:orientation="horizontal"
+    android:padding="@dimen/big_no_title_padding"    
+    android:background="@color/big_no_title_background"
+    android:layout_marginTop="@dimen/margin_top" >
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="right"        
+        android:textColor="@color/big_no_title_value"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/big_no_title_text_size_value"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/value"
+        android:layout_alignBottom="@+id/value"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/value"        
+        android:textColor="@color/big_no_title_unit"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/big_no_title_text_size_unit"
+        android:typeface="normal" />
+
+    <ImageView
+        android:id="@+id/icon"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAlignBottom="true"
+        android:layout_alignBaseline="@+id/value"        
+        android:layout_marginLeft="10dp" />
+   
+</RelativeLayout><!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/DataView/res/layout/data_big_no_title.xml --><!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/build/intermediates/exploded-aar/source_package/DataView/unspecified/res/layout/data_big_no_title.xml -->

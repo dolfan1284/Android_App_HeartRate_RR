@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.csr.heartratedemo"
+    android:versionCode="2"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sohm_layer_app_image1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.csr.heartratedemo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.csr.heartratedemo.HeartRateActivity"
+            android:label="@string/title_activity_heart_rate"
+            android:parentActivityName="com.csr.heartratedemo.MainActivity" >
+        </activity>
+
+        <service
+            android:name="com.csr.btsmart.BtSmartService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name="com.csr.heartratedemo.DeviceInfoActivity"
+            android:parentActivityName="com.csr.heartratedemo.HeartRateActivity"
+            android:label="@string/title_activity_device_info" >
+        </activity>
+    </application>
+
+</manifest>

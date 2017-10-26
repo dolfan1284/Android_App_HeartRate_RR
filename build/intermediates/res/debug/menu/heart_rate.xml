@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_info"
+          android:icon="@drawable/button_info"
+          android:title="@string/action_info"
+          android:showAsAction="always" />
+
+</menu>
+<!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/res/menu/heart_rate.xml -->

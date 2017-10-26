@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="unspecified" >
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\DataView\unspecified\assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build\intermediates\exploded-aar\source_package\BtSmartLibrary\unspecified\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Yuning\Documents\Jeff_stuff\Sohm\Phone_app\BT_sourcecode\source_package\HeartRateDemo\build-types\debug\assets" />
+    </dataSet>
+
+</merger>

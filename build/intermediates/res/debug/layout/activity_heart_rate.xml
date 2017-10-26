@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"    
+    android:orientation="vertical"
+    android:background="@drawable/nexus4_background"
+    tools:context=".MainActivity" >
+
+    <com.csr.view.DataView
+        android:id="@+id/heartRateData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        custom:valueText=""
+        custom:unitText="BPM"        
+        custom:layout="@layout/data_big_no_title" />
+
+    <com.csr.view.DataView
+        android:id="@+id/RRData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        custom:valueText=""
+        custom:titleText="RR value"
+        custom:unitText="Ticks"        
+        custom:layout="@layout/data_normal" />
+        
+    <com.csr.view.DataView
+        android:id="@+id/energyData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:titleText="Energy"
+        custom:unitText="KJ" 
+        custom:valueText=""
+        custom:layout="@layout/data_normal" />       
+    
+    <com.csr.view.DataView
+        android:id="@+id/locationData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:titleText="Sensor location"        
+        custom:valueText=""
+        custom:layout="@layout/data_normal" />
+
+    <com.csr.view.DataView
+        android:id="@+id/currentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:titleText="Current Time"
+        custom:valueText="--"
+        custom:layout="@layout/data_normal" />
+
+    <com.csr.view.DataView
+        android:id="@+id/positionLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:titleText="Position Left"
+        custom:valueText="--"
+        custom:layout="@layout/data_normal" />
+    <com.csr.view.DataView
+        android:id="@+id/positionRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:titleText="Position Right"
+        custom:valueText="--"
+        custom:layout="@layout/data_normal" />
+    <com.csr.view.DataView
+        android:id="@+id/respirationLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:titleText="Respiration Left"
+        custom:valueText="--"
+        custom:layout="@layout/data_normal" />
+
+    <com.csr.view.DataView
+        android:id="@+id/temperatureData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:titleText="Temperature"
+        custom:valueText="--"
+        custom:layout="@layout/data_normal" />
+
+</LinearLayout><!-- From: file:/C:/Users/Yuning/Documents/Jeff_stuff/Sohm/Phone_app/BT_sourcecode/source_package/HeartRateDemo/res/layout/activity_heart_rate.xml -->

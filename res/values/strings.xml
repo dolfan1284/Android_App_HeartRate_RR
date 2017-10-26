@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sohm Layer</string>
+    <string name="action_info">Device Information</string>
+    <string name="title_activity_heart_rate">Sohm Layer</string>
+    <string name="title_activity_device_info">Device Information</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
